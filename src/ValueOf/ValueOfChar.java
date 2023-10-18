@@ -19,7 +19,7 @@ public class ValueOfChar {
     System.out.println(result);
 
     /* Returns the string of charArray starting from
-       index 6 and total count from 6 is 8 */
+       index 5 and total count from 5 is 5 */
     result = String.valueOf(data, 5 , 5);
     System.out.println(result);
     }

@@ -2,19 +2,21 @@ package StringBuffer;
 
 public class Append {
     public static void main(String[] args){
-        // Mendefinisikan Objek Beserta Nilainya
+
+        // define string buffer
         StringBuffer data = new StringBuffer("Belajar");
 
-        // Menambahkan Beberapa Nilai/Karakter String
+//        // add/append a string
         data.append(" Java");
         data.append(" Bersama");
         data.append(" Kelompok Tiga");
 
-        //Menampilkan Output
+        // return output
         System.out.println(data);
         System.out.println(data.length());
         System.out.println(data.capacity());
 
+        // checking the memory address
         int addressBuilder = System.identityHashCode(data);
         System.out.println("address = " + Integer.toHexString(addressBuilder));
     }

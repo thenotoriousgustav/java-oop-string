@@ -2,8 +2,8 @@ public class Concat {
     public static void main(String[] args) {
 
         // Example One
-        String firstName = "Gustam ";
-        String lastName = "Rheza";
+        String firstName = "John ";
+        String lastName = "Doe";
 
         System.out.println(firstName.concat(lastName));
 

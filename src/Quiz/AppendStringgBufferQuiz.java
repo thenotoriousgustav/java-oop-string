@@ -1,19 +1,25 @@
+package Quiz;
+
 import java.util.Scanner;
 
-public class Main {
+public class AppendStringgBufferQuiz {
     public static void main(String[] args){
         // Membuat objek Scanner untuk menerima input dari pengguna
         Scanner scanner = new Scanner(System.in);
 
         // Meminta pengguna memasukkan beberapa kata
-        System.out.print("Masukkan beberapa kata: ");
-        String inputKata = scanner.nextLine();
+        System.out.print("Masukkan kata pertama: ");
+        String inputKataSatu = scanner.nextLine();
+
+        System.out.print("Masukkan kata kedua: ");
+        String inputKataDua = scanner.next();
 
         // Membuat objek StringBuffer
         StringBuffer stringBuffer = new StringBuffer();
 
         // Menggabungkan input pengguna dengan metode append
-        stringBuffer.append(inputKata);
+        stringBuffer.append(inputKataSatu);
+        stringBuffer.append(inputKataDua);
 
         // Menampilkan string yang telah digabung
         System.out.println("String awal: " + stringBuffer);

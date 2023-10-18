@@ -10,12 +10,11 @@ public class ValueOfNumber {
         String strInt = String.valueOf(valueInt);
         String strDouble = String.valueOf(valueDouble);
 
-        String result = strInt.concat(strDouble);
+        String result = strInt + strDouble;
 
         // return output
         System.out.println("Value strInt = " + strInt);
         System.out.println("Value strDouble = " + strDouble);
         System.out.println("result of strInt + strDouble  = " + result);
-
     }
 }
